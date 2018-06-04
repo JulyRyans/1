@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.dlbg {
+	width: 100%;
+	background: url(../img/dlbj6.jpg) no-repeat center;
+}
+.bigdlzc {
+	width: 800px;
+	height: 600px;
+	text-align: center;
+}
+.alert_zc {
+	margin:130px 0 20px 0 ;
+}
+.alert_zc h2{
+	font: 500 14px/32px "微软雅黑";
+}
+.alert_zc a {
+	color: #FF0000;
+	font: 600 16px/32px "黑体";
+}
+.denglu{
+	margin: 0 200px;
+	width: 400px;
+	height: 330px;	
+	border-radius: 6px;
+	box-shadow: 2px;
+	/*opacity:0.5;
+	background-color:black;*/
+	background:rgba(0,0,0,.6);
+}
+.denglu .title{
+	margin: 0 auto;
+	width: 200px;
+	padding-top:24px ;
+    padding-bottom: 10px;
+	text-align: center;
+	font-family:simsun;
+	color:white;
+	}
+.denglu .title h3{
+	font: 400 18px/18px "微软雅黑";
+	color: #fff;
+}
+.denglu .current{
+	margin: 0 auto;
+	padding-top:30px;
+	width: 260px;
+	font: 16px/50px "微软雅黑";
+	text-align: center;
+	color: white;
+}
+.denglu .current input{
+	width: 200px;
+	height: 30px;
+	border-radius:5px;
+}
+.denglu .current div._button{
+	width: 200px;
+	height: 50px;
+	padding: 10px 30px ;
+}
+button{
+	width:150px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #0DA4FD;
+	color:antiquewhite;
+	font: 600 16px/16px "微软雅黑";
+	cursor: pointer;
+}

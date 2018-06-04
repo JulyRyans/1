@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.Cpro_binner .koba {
+	width: 100%;
+	height: 500px;
+	background: url(../img/bg6.jpg) no-repeat; 
+	margin-bottom: 10px;
+}
+.bgcontent {
+	background: url(../img/lbj1.jpg) no-repeat;
+	/*position: relative;*/
+}
+.bgcontent  .gsjj {
+	position: relative;
+	top: 16px;
+	left: 5px;
+	width:300px;
+	height: 60px;
+	border:2px solid #fff;
+	border-radius: 30px;
+	padding: 20px 50px;
+	color: #fff;
+}
+.bgcontent  .gsjj .Eglish {
+	font: 800 26px/30px "微软雅黑";
+}
+.bgcontent  .gsjj .chi{
+	display: block;
+	width: 300px;
+	font: 800 24px/30px "微软雅黑";
+	color: #fff;
+}
+.bgcontent .C_jianjie {
+	width: 100%;
+	height: 780px;
+}
+.Cpro_binner .C_jianjie .jianjie_l,
+.Cpro_binner .C_jianjie .jianjie_r{
+	margin-top: 16px;
+	width: 540px;
+	height: 340px;
+	background:rgba(0,0,0,.7);
+	padding: 30px 30px;
+	border-radius: 40px;
+}
+.jianjie_l p,
+.jianjie_r p {
+	font: 14px/30px "微软雅黑";
+	color: #fff;
+	text-indent: 28px;
+}
+.jj_pic {
+   position: relative;
+   top: 112px;
+}
+.jj_pic li{
+	float: left;
+	margin-right: 10px;
+}
+.jj_pic li.last {
+	margin-right: 0;
+}

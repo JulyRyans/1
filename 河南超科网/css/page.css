@@ -1,0 +1,102 @@
+@charset "utf-8";
+/*分页开始*/
+.big_page {
+	margin-top: 20px;
+	height: 650px;
+}
+.big_page .page_phone {
+	width: 1170px;
+	margin: 20px;
+	background-color: #fff;
+}
+.big_page .page_phone ul {    
+	font-size: 12px;
+    width: 1170px;
+    margin: 0;
+    border-bottom: 1px solid #ececec;
+}
+.phone_list {
+	zoom: 1;
+}
+.phone_list:after {
+	content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+}
+.phone_list li {
+	width: 234px;
+	height: 280px;
+	float: left;
+	position: relative;
+    margin: 0 -1px -1px 0;
+    border-bottom: 1px solid #ececec;
+}
+.phone_list li.b_ri {
+	border-right: 1px solid #ececec;
+}
+.phone_list li.b_ri .b_ri1 {
+	position: relative;
+    z-index: 1;
+    height: 340px;
+    zoom: 1;
+}
+.phone_list .b_ri2 {
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.phone_list .b_ri3 {
+	width: 234px;
+    margin: 10px auto 0;
+    overflow: hidden;
+}
+.phone_list .b_ri1 h2 {
+	font-size: 16px;
+    line-height: 22px;
+    max-height: 61px;
+    padding: 10px 25px;
+    overflow: hidden;
+    color: #FF0000;
+}
+.phone_list .b_ri1 .jieshao {
+	width: 234px;
+	height: 150px;
+}
+.b_ri1 .jieshao p {
+	padding: 10px 20px;
+	font: 200 12px/18px "微软雅黑";
+}
+.b_ri1 .jieshao p span {
+	text-indent: 0;
+	font: 200 12px/18px "微软雅黑";
+	color: #FF0000;
+}
+.page {
+	width: 300px;
+	height: 20px;
+	margin: 5px 455px;
+}
+.page ul {
+
+	height: 30px;
+}
+.page li{
+	float: left;
+	margin-right:10px ;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #808183;
+	border-radius: 50%;
+	font: 12px/30px "微软雅黑";
+	text-align: center;
+	background:rgba(0,0,0,.9);
+	color: #fff;
+}
+/*分页结束*/

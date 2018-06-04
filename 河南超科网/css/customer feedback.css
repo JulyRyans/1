@@ -1,0 +1,64 @@
+@charset "utf-8";
+/*客户留言开始*/
+.ku_content {
+	width: 100%;
+	height: 600px;
+	background-color: #F8F8F8;
+}
+.ku_content .message {
+	height: 30px;
+}
+.message .message_box{
+	width: 150px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	font: 200 12px/30px "微软雅黑";
+}
+.kl {
+	width: 450px;
+	height: 400px;
+}
+
+.kl_title {
+	width: 100px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	font:500 16px/36px "黑体";
+}
+.hx {
+	margin: 0 auto;
+	width: 40px;
+	height: 2px;
+	background-color: #AAA387;
+	margin-bottom: 20px;
+}
+
+.kl_zt p {
+	font: 12px/26px simsun;
+	color: #B3B3B3;
+}
+.kl_zt p a {
+	font: 14px/26px "微软雅黑";
+}
+.kl_bd {
+	margin-top: 10px;
+}
+.kl_bd textarea {
+	font-family:"微软雅黑";
+	color: #000;
+}
+.kl_bd input {
+	width:80px;
+	height: 30px;
+	border: 2px solid #eee;
+	border-radius:6px ;
+	/*background-color: #FFCC99;*/
+	background: rgba(0,0,0,.4);
+	font: 16px/30px "微软雅黑";
+	color: #fff;
+	cursor: pointer;
+}
+/*客户留言结束*/

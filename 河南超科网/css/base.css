@@ -1,0 +1,184 @@
+@charset "UTF-8";/*字符集*/
+/*css 初始化 ，内外边距清零*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+/*表单，太特殊，初始化表单*/
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; /*outline-style:none；去掉鼠标点击表单时，边框上出现的有色边框*/}
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动（标签：文本域被拖动易影响布局）*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙（图片下面总是有3px缝隙）还可用display:block*/
+table { border-collapse:collapse; }/*合并边框*/
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";/*"\5b8b\4f53"=宋体*/
+    color:#666;
+    background:#fff;
+}
+.clearfix:before,.clearfix:after {/*清除浮动（也称闭合浮动）最好的一种清除浮动的方法*/
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1210px;
+    margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+
+body {
+	background-color: #F5F6F8;
+}
+/*top头部开始*/
+.top_h {
+	height: 80px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.top_h .com_l{
+	position: relative;
+	margin-left:50px;
+	width: 215px;
+	height: 80px;
+}
+.top_h .com_l .log {
+	float: left;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 215px;
+	height: 70px;
+    background: url(../img/biglogo.jpg) no-repeat;
+}
+.top_h .com_l h3{
+	float: right;
+	width: 150px;
+	height: 45px;
+	padding-top: 25px;
+}
+.top_h .com_l h3 a{
+	font: 700 18px/45px simsun;
+}
+.top_h .com_r {
+	width: 200px;
+	height: 70px;
+	margin-right: 20px;
+	position: relative;
+}
+.top_h .com_r .phone {
+	float: left;
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background: url(../img/phone.jpg) no-repeat ;
+	bottom: 2px;
+	left: 0;
+}
+.top_h .com_r .phone_number {
+	float: right;
+	margin-top: 23px;
+	height: 37px;
+	padding-top: 10px;
+	text-align: center;
+	line-height: 47px;
+	margin-right: 11px;
+}
+/*top头部结束*/
+/*头部开始*/
+.header {
+	height: 60px;
+	width: 100%;
+	background-color:#000000;
+}
+.header .nav {
+	float: right;
+}
+.header ul {
+	float: right;
+	margin-top: 20px;
+	margin-right: 50px ;
+}
+.header li {
+	width: 80px;
+	height: 28px;
+	margin: 0 10px;
+	float: left;
+}
+.header li a {
+	display: block;
+	color: #FFFFFF;
+	/*color: #000;*/
+	border-radius: 10px;/*
+	background-color: #fff;*/
+	font:700 14px/28px "微软雅黑";
+	text-align: center;/*
+	border: 1px solid #E3E7F0;*/
+}
+.header li a:hover {/*
+	background-color: #42486C;*/
+	color:#FFCC99;
+}
+/*头部结束*/
+
+
+/*底部*/
+ .footer{
+ 	border-top: 1px solid #CCCCCC;
+    padding: 26px 0 32px 0;
+	margin-top: 42px;
+	text-align: center;
+ }
+ .footer .links{
+ 	height: 23px;
+ }
+ .links{
+	height:23px;
+}
+.links a{
+	padding: 0 7px;
+}	
+/*底部结束*/
+/*返回顶部*/
+.backtop {
+	width: 50px;
+	height: 50px;
+}
+.backtop .back_t{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: url(../img/backtop.png) no-repeat -331px -70px;
+}
+.backtop .back_t:hover{
+	background-position: -331px -120px;
+}
+/*返回顶部结束*/

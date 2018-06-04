@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+/*banner开始*/
+.bigbanner{
+	position: relative;
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+}
+.circle {
+    position: absolute;
+    bottom: 9px;
+    left: 50%;
+    margin-left: -30px;
+}
+.circle li {
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin:0 2px;
+	border: 2px solid #eee;
+	background:rgba(0,0,0,.1);
+	text-align: center;
+	color:#fff;
+	border-radius: 50%;
+	cursor: pointer;
+	font: 700 16px/30px "微软雅黑";
+}
+.circle li:hover{
+	background: rgba(0,0,0,.5);
+}
+.arrow {
+	display:none;
+}
+.arrow-l, .arrow-r{
+	position: absolute;
+	width: 62px;
+	height: 62px;
+	top: 50%;
+	margin-top: -41px;
+	border-radius: 50% ;
+	background: rgba(0,0,0,.3);
+	color: #fff;
+	text-align: center;
+	font: 1000 20px/62px simsun;
+}
+.arrow-l:hover, .arrow-r:hover {
+	background: rgba(0,0,0,.4);
+	color: #514D4E;
+}
+.arrow-l {
+	left: 0;
+}
+.arrow-r {
+	right:0;
+}
+/*公告开始*/
+.gonggao {
+	width:100%;
+	height: 30px;
+	background-color: #FFFFFF;
+	border-top:1px solid #D5D5D5;
+	border-right:1px solid #D5D5D5;
+	line-height: 30px;
+}
+.main {
+	position: relative;
+	height: 30px;
+}
+/*公告结束*/
+/*content开始*/
+.content {
+	margin-bottom: 10px;
+}
+.content .comnew,
+.content .compro,
+.content .online {
+	float: left;
+	width: 400px;
+	height:300px ;
+	margin-right: 5px;
+	background-color: #fff;
+}
+.content .comnew {
+	position: relative;
+}
+.content .comnew a{
+	display: block;
+	width: 400px;
+	height: 300px;
+}
+.content .comnew a img {
+	width: 400px;
+	height:270px ;
+}
+.content .comnew .gywm {
+	position: absolute;
+	width: 400px;
+	height: 80px;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+}
+.content .comnew .gywm a{
+	display: block;
+	width: 400px;
+	height: 80px;
+	font: 900 24px/80px  "黑体";
+	text-align: center;
+	color: #fff;
+}
+.content .comnew .gywm a:hover{
+    font-size: 28px;
+    background: rgba(0,0,0,.5);
+}
+.content .online {
+	margin: 0;
+}
+.compro .bt ,
+.comnew .bt ,
+.online .bt {
+	height: 30px;
+	width: 100px;
+	font: 700 18px/30px "微软雅黑";
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	border-radius:15px;
+}
+.compro .cp {
+	width: 400px;
+	height: 80px;
+	margin-top: 10px;
+}
+.compro .cp .cp_l {
+	float: left;
+	margin:0 10px;
+}
+.compro .cp .cp_l img{
+	width: 80px;
+	height: 80px;
+
+}
+.compro .cp .cp_r {
+	float: right;
+	width: 300px;
+	height: 80px;
+}
+.compro .cp .cp_r .cp_t {
+	border-bottom: 1px dotted #A8A8A8;
+	font: 500 18px/30px "微软雅黑";
+}
+.compro .cp .cp_r .cp_b{
+	font:200 14px/25px "微软雅黑" ;
+}
+.content .compro {
+	position: relative;
+}
+.compro .gscp {
+	position: absolute;
+	width: 400px;
+	height: 80px;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+}
+.content .compro .gscp a {
+	display: block;
+	width: 400px;
+	height: 80px;
+	font: 900 24px/80px  "黑体";
+	text-align: center;
+	color: #fff;
+}
+.compro .gscp a:hover {
+	font-size: 28px;
+    background: rgba(0,0,0,.5);
+}
+.online .pic {
+	float: left;
+	width: 200px;
+	height: 270px;
+	position: relative;
+}
+.online .pic img{
+	width: 200px;
+	height: 166px;
+	position: absolute;
+	bottom: 0;
+}
+.online .kf_r {
+	width: 200px;
+	height: 200px;
+	padding-top: 70px;
+	float: left;
+}
+.online .kf_r p{
+	font:200 12px/30px "微软雅黑" ;
+}
+.online .kf_r p.zt{
+	font:300 16px/30px "微软雅黑" ;
+}
+.content .online {
+	position: relative;
+}
+.content .online .llwm{
+	position: absolute;
+	width: 400px;
+	height: 80px;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+}
+.content .online .llwm a {
+	display: block;
+	width: 400px;
+	height: 80px;
+	font: 900 24px/80px  "黑体";
+	text-align: center;
+	color: #fff;
+}
+.online .llwm a:hover {
+	font-size: 28px;
+    background: rgba(0,0,0,.5);
+}
+/*content结束*/

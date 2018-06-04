@@ -1,0 +1,96 @@
+@charset "utf-8";
+/*联系我们主体开始*/
+.bigcontact {
+	height: 600px;
+	background-color: #F8F8F8;
+}
+.bigcontact .lianxiwe {
+	height: 30px;
+}
+.bigcontact .lianxiwe .lianxiwe_box{
+	width: 150px;
+	height: 30px;
+	float: right;
+	text-align: center;
+	font: 200 12px/30px "微软雅黑";
+}
+.bigcontact .contact {
+	width: 1210px;
+	height: 600px;
+}
+.bigcontact .contact .contact_l {
+	width:200px;
+	height: 600px;
+	position: relative;
+}
+.contact_l .title_lx {
+	width: 200px;
+	height: 81px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../img/contact1.jpg) no-repeat;
+	text-indent: -2000em;
+}
+.contact_l .lx_list {
+	width: 200px;
+	padding-top: 120px;
+}
+.contact_l .lx_list ul {
+	width: 200px;
+}
+.contact_l .lx_list li {
+	width: 200px;
+	height: 40px;
+	background-color: #000;
+	border-radius: 15px 15px 0 15px;
+	margin-bottom: 20px;
+}
+.contact_l .lx_list li a{
+	display: block;
+	width: 200px;
+	height: 20px;
+	font: 20px/40px "黑体";
+	text-align: center;
+	color:#fff ;
+}
+.bigcontact .contact .contact_r {
+	width: 1000px;
+	height: 600px;
+	background-color:#F4F3F2;
+}
+.contact_r .c_box {
+    margin: 50px;
+	width: 900px;
+	height: 500px;
+	position: relative;
+}
+.contact_r .c_box .xtb {
+	width: 62px;
+	height: 62px;
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	margin-left: -20px;
+	background: url(../img/backtop.png) no-repeat -579px -253px;
+}
+.contact_r .c_box .content_lx {
+	margin: 20px;
+	width: 300px;
+	float: left;
+}
+.content_lx h3 {
+	font: 800 24px/60px "微软雅黑";
+	color: #000;
+}
+.content_lx p {
+	font: 400 16px/30px "微软雅黑";
+	color: #000;
+}
+.contact_r .c_box .content_map {
+	margin-top: 50px;
+	float: right;
+	width: 500px;
+	height: 400px;
+}
+/*联系我们主体结束*/
